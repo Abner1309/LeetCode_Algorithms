@@ -7,8 +7,8 @@ public class Solution {
         StringBuilder string_original = new StringBuilder(s);
         StringBuilder string_intermediary = new StringBuilder();
         StringBuilder string_final = new StringBuilder();
-
         boolean permission = true;
+        
         for (int i = 0; i < string_original.length(); i++) {
             char character = string_original.charAt(i);
             for (int j = 0; j < string_intermediary.length(); j++) {
